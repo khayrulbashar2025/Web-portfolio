@@ -23,6 +23,11 @@
     
 
 }
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* nav style */
 
 nav{
@@ -50,4 +55,28 @@ nav ul{
     display: flex;
     align-items: center;
 
+}
+/* banner-style */
+.baner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-welcome{
+    font-size: 45px;
+    font-weight: 600px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.paragraf-description{
+    font-size: 18px;
+    color: #757575;
+}
+.banner-profile{
+    width: 584px;
 }
